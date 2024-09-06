@@ -8,7 +8,7 @@ import WorkExperience from "./workExperience/WorkExperience";
 import StartupProject from "./StartupProjects/StartupProject";
 import Footer from "../components/footer/Footer";
 import Education from "./education/Education";
-// import Profile from "./profile/Profile";
+import Profile from "./profile/Profile";
 import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
@@ -52,7 +52,7 @@ const Main = () => {
             <WorkExperience />
             {/* <Projects /> */}
             <StartupProject />
-            {/* <Profile /> */}
+            <Profile />
             <Footer />
           </>
         )}

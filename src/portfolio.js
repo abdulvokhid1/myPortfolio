@@ -164,7 +164,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       // date: "Jan 2015 – Sep 2015",
-      desc: "백엔드 개발자 NodeJS,TypeScript 및 NES TJS를 사용하여 확장 가능한 백엔드 서비스를 구축했습니다. GraphQL 및 Apollo Server를 사용하여 데이터 쿼리 기능을 구현했습니다. Mongoose를 사용하여 스키마 기반 데이터 모델링을 통해 MongoDB 데이터베이스를 관리했습니다. 다WebSocket 및 Socket.IO를 사용하여 실시간 통신을 관리했습니다.Cookie-Parser를 사용하여 세션 관리를 하고, DotEnv를 사용하여 보안 환경 구성을 했습니다. Nestjs-Schedule을 사용하여 API를 설계하고 데이터 스크래핑 및 배치 처리를 수행했습니다.MVC, 미들웨어, 의존성 주입(Dependency Injection) 등 다양한 디자인 패턴을 적용했습니다. Linux Ubuntu를 실행하는 VPS에 애플리케이션을 배포하고, NGINX 및 UFW로 구성했습니다. Docker 및 Docker Compose를 사용하여 애플리케이션을 컨테이너화했습니다"
+      desc: "백엔드 개발자 NodeJS,TypeScript 및 NESTJS를 사용하여 확장 가능한 백엔드 서비스를 구축했습니다. GraphQL 및 Apollo Server를 사용하여 데이터 쿼리 기능을 구현했습니다. Mongoose를 사용하여 스키마 기반 데이터 모델링을 통해 MongoDB 데이터베이스를 관리했습니다. WebSocket 및 Socket.IO를 사용하여 실시간 통신을 관리했습니다.Cookie-Parser를 사용하여 세션 관리를 하고, DotEnv를 사용하여 보안 환경 구성을 했습니다. Nestjs-Schedule을 사용하여 API를 설계하고 데이터 스크래핑 및 배치 처리를 수행했습니다.MVC, 미들웨어, 의존성 주입(Dependency Injection) 등 다양한 디자인 패턴을 적용했습니다. Linux Ubuntu를 실행하는 VPS에 애플리케이션을 배포하고, NGINX 및 UFW로 구성했습니다. Docker 및 Docker Compose를 사용하여 애플리케이션을 컨테이너화했습니다"
     },
     {
       role: "프론트엔드 개발자",
