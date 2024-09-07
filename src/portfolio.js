@@ -171,7 +171,7 @@ const workExperiences = {
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       // date: "May 2017 – May 2018",
-      desc: "프론트엔드 개발자: React, TypeScript 및 EJS를 사용하여 SPA 애플리케이션을 개발했습니다. REDUX 및 Context를 사용하여 상태 관리를 구축했습니다. MaterialUI, Bootstrap 및 Tailwind를 활용하여 사용자 친화적인 인터페이스를 만들었니다. React-i18next를 사용하여 국제화를 구현했습니다. SCSS, SASS를 사용하여 게시물을 작성하고 코드 리팩토링을 수행했습니다"
+      desc: "프론트엔드 개발자: HTML, Css, JavaScript, TypeScript, React, 및 EJS를 사용하여 SPA 애플리케이션을 개발했습니다. REDUX 및 Context를 사용하여 상태 관리를 구축했습니다. MaterialUI, Bootstrap 및 Tailwind를 활용하여 사용자 친화적인 인터페이스를 만들었니다. React-i18next를 사용하여 국제화를 구현했습니다. SCSS, SASS를 사용하여 게시물을 작성하고 코드 리팩토링을 수행했습니다"
     }
   ]
 };
