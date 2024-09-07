@@ -46,9 +46,9 @@ function Header() {
             <a href="#contact">Contact Me</a>
           </li>
           <li>
-            <a href="">
-              <ToggleSwitch />
-            </a>
+            {/* <a href=""> */}
+            <ToggleSwitch />
+            {/* </a> */}
           </li>
         </ul>
       </header>
