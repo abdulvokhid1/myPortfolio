@@ -15,7 +15,7 @@ export default function WorkExperience() {
             <div>
               <h1 className="experience-heading">Experiences</h1>
               <h1 className="experience-heading">
-                ITC Global <span>07.2022 - 06.2024</span>
+                ITC Global <span>02.2023 - 03.2024</span>
               </h1>
 
               <div className="experience-cards-div">
