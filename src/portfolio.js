@@ -171,7 +171,7 @@ const workExperiences = {
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       // date: "May 2017 – May 2018",
-      desc: "프론트엔드 개발자: HTML, Css, JavaScript, TypeScript, React, 및 EJS를 사용하여 SPA 애플리케이션을 개발했습니다. REDUX 및 Context를 사용하여 상태 관리를 구축했습니다. MaterialUI, Bootstrap 및 Tailwind를 활용하여 사용자 친화적인 인터페이스를 만들었니다. React-i18next를 사용하여 국제화를 구현했습니다. SCSS, SASS를 사용하여 게시물을 작성하고 코드 리팩토링을 수행했습니다"
+      desc: "프론트엔드 개발자: HTML, Css, JavaScript, TypeScript, React, 및 EJS를 사용하여 SPA 애플리케이션을 개발했습니다. NEXTJS를 활용하여 Next-AppRouter 및 Next-PagesRouter를 포함한 기능을 사용했습니다. REDUX 및 Context를 사용하여 상태 관리를 구축했습니다. MaterialUI, Bootstrap 및 Tailwind를 활용하여 사용자 친화적인 인터페이스를 만들었니다. React-i18next를 사용하여 국제화를 구현했습니다. SCSS, SASS를 사용하여 게시물을 작성하고 코드 리팩토링을 수행했습니다"
     }
   ]
 };
@@ -185,6 +185,7 @@ const bigProjects = {
   title: "Big Projects",
   // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    // greenshop
     {
       image: require("./assets/images/Logo.png"),
       projectName: "Greenshop",
@@ -202,11 +203,12 @@ const bigProjects = {
         //  you can add extra buttons here.
       ]
     },
+    // megacoffee
     {
       image: require("./assets/images/mega-logo.png"),
       projectName: "MegaCoffee",
       projectDesc:
-        "풀스택 전자상거래 웹 애플리케이션 저는 MVC 아키텍처 프레임워크 내에서 React.js를 사용하여 강력한 풀스택 웹 애플리케이션을 개발했습니다.이 플랫폼은 사용자가 다양한 고품질 커피를 탐색하고 구매할 수 있는 원활하고 신뢰할 수 있는 경험을 제공합니다.커피 외에도, 애플리케이션은 다양한 종류의 음료 포함한 광범위한 음료 선택을 제공하여 다양한 취향을 충족시킵니다. 직관적인 인터페이스와 효율적인 백엔드는 원활한 사용자 경험을 보장하며, 고객이 원하는 제품을 쉽게 찾고 구매할 수 있도록 합니다. 이 프로젝트는 사용자 경험을 향상시키기 위해 종합적인 기능 세트를 포함하고 있습니다. 핵심 요소 중 하나는 사용자 인증 및 로그인 기능으로, 사용자가 개인화된 계정을 생성하고 안전하게 로그인하여 맞춤형 기능에 접근할 수 있게 합니다. 로그인 후, 사용자는 제품 카탈로그를 쉽게 탐색하고, 장바구니에 아이템을 추가하며, 선택 사항을 손쉽게 관리할 수 있습니다.",
+        "풀스택 전자상거래 웹 애플리케이션, 저는 MVC 아키텍처 프레임워크 내에서 React.js를 사용하여 강력한 풀스택 웹 애플리케이션을 개발했습니다.이 플랫폼은 사용자가 다양한 고품질 커피를 탐색하고 구매할 수 있는 원활하고 신뢰할 수 있는 경험을 제공합니다.커피 외에도, 애플리케이션은 다양한 종류의 음료 포함한 광범위한 음료 선택을 제공하여 다양한 취향을 충족시킵니다. 직관적인 인터페이스와 효율적인 백엔드는 원활한 사용자 경험을 보장하며, 고객이 원하는 제품을 쉽게 찾고 구매할 수 있도록 합니다. 이 프로젝트는 사용자 경험을 향상시키기 위해 종합적인 기능 세트를 포함하고 있습니다. 핵심 요소 중 하나는 사용자 인증 및 로그인 기능으로, 사용자가 개인화된 계정을 생성하고 안전하게 로그인하여 맞춤형 기능에 접근할 수 있게 합니다. 로그인 후, 사용자는 제품 카탈로그를 쉽게 탐색하고, 장바구니에 아이템을 추가하며, 선택 사항을 손쉽게 관리할 수 있습니다.",
       footerLink: [
         {
           name: "Visit Website",
@@ -216,6 +218,40 @@ const bigProjects = {
           name: "Visit Website Admin Panel",
           url: "http://156.67.221.152:3003/admin/"
         }
+      ]
+    },
+
+    // nexton
+    {
+      image: require("./assets/images/airbnbLogo.png"),
+      projectName: "Nexton",
+      projectDesc:
+        "내 기여: 저는 Nexton의 매력적인 프론트엔드 개발에서중요한 역할을 했습니다. JavaScript, JQuery, EJS,HTML, CSS, Axios, Bootstrap, SweetAlert2, Swiper,PixelJS 등 다양한 최신 기술을 활용하여 시각적으로 뛰어나고 원활하게 상호작용하는 사용자 경험을 제공하는 데중점을 두었습니다. 제 기여는 Nexton의 사용자들이 몰입감 있는 보람 있는 온라인 쇼핑을 경험할 수 있도록 하는 데 목표를 두었습니다.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://Nexton.uz/"
+        }
+        // {
+        //   name: "Visit Website Admin Panel",
+        //   url: "http://156.67.221.152:3003/admin/"
+        // }
+      ]
+    },
+    {
+      image: require("./assets/images/engin.png"),
+      projectName: "EnginX",
+      projectDesc:
+        "설명: Enginx는 MERN 스택과 인공지능 같은 주제를 포함한 다양한 유료 강좌를 제공하는 강력한 elearning 플랫폼입니다. 학생들은 계정을 생성하고 강좌를 구매하며, 관리자가 통제하는 상호작용적인 튜토리얼에 참여할 수 있습니다. 강사는 승인된 강좌를업로드할 수 있는 권한을 가지고 있습니다. 내 기여: 저는 Enginx의 매력적인 프론트엔드 개발에서중요한 역할을 했습니다. JavaScript, JQuery, EJS,HTML, CSS, Axios, Bootstrap, SweetAlert2, Swiper,PixelJS 등 다양한 최신 기술을 활용하여 시각적으로 매력적이고 원활한 상호작용을 제공하는 사용자 경험을구현했습니다. 제 기여는 Enginx의 학습자들이 몰입감있는 보람 있는 온라인 학습 여정을 경험할 수 있도록하는 데 중점을 두었습니다.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://enginx.uz/index.php"
+        }
+        // {
+        //   name: "Visit Website Admin Panel",
+        //   url: "http://156.67.221.152:3003/admin/"
+        // }
       ]
     }
   ],
