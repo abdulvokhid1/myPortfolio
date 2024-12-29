@@ -263,7 +263,7 @@ const bigProjects = {
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
+  subtitle: "Feel free to download my Resume",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
